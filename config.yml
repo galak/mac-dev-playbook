@@ -39,6 +39,11 @@ homebrew_cask_apps:
   - expressvpn
   - firefox
   - google-chrome
+  - microsoft-excel
+  - microsoft-powerpoint
+  - microsoft-word
+  - microsoft-teams
+  - microsoft-remote-desktop
   - mqtt-explorer
   - plex
   - plexamp
