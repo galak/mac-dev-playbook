@@ -94,6 +94,35 @@ homebrew_installed_packages:
   - mas
   - bitwarden-cli
   - vim
+  - git
+  - wget
+  - awscli
+  - cscope
+  - dfu-util
+  - esptool
+  - platformio
+  - mitmproxy
+  - nmap
+  - telnet
+  - tmux
+  - iperf3
+  - speedtest-cli
+  - jq
+  - sphinx-doc
+  - bpytop
+  - osx-cpu-temp
+# Used by sdk-ng builds
+  - autoconf
+  - automake
+  - bash
+  - binutils
+  - gawk
+  - gnu-sed
+  - gnu-tar
+  - help2man
+  - ncurses
+  - pkg-config
+  - makeself
 
 homebrew_taps:
   - homebrew/core
