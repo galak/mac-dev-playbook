@@ -36,20 +36,28 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - android-file-transfer
   - atom
   - bbedit
   - bitwarden
+  - coconutbattery
+  - devdocs
+  - discord
+  - docker
   - drawio
   - expressvpn
   - firefox
   - gcc-arm-embedded
   - google-chrome
+  - google-earth-pro
+  - kindle
   - microsoft-excel
   - microsoft-powerpoint
   - microsoft-word
   - microsoft-teams
   - microsoft-remote-desktop
   - mqtt-explorer
+  - netspot
   - plex
   - plexamp
   - quicken
@@ -61,6 +69,7 @@ homebrew_cask_apps:
   - transmission
   - vlc
   - wireshark
+  - xbar
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
