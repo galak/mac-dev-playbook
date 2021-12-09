@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - dtc
   - mas
   - bitwarden-cli
+  - vim
 
 homebrew_taps:
   - homebrew/core
