@@ -1,0 +1,71 @@
+### GENERAL ###
+# Accent Color - Blue
+defaults write -g AppleAccentColor -int 4
+# Highlight Color - Blue
+defaults write -g AppleHighlightColor -string "0.698039 0.843137 1.000000 Blue"
+# Show Scroll Bars - Always
+defaults write -g AppleShowScrollBars -string "Always"
+# Sidebar icon size - small
+defaults write -g NSTableViewDefaultSizeMode -int 1
+
+### TRACKPAD ###
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# set scroll orientation
+defaults write -g com.apple.swipescrolldirection -bool false
+
+### MISSION CONTROL ###
+# Group Windows by Application
+defaults write com.apple.dock expose-group-apps -bool true
+## Hot Corners
+# bottom left - Start Screen Saver (4)
+defaults write com.apple.dock wvous-bl-modifier -bool false
+defaults write com.apple.dock wvous-bl-corner -int 4
+# bottom right - Desktop (5)
+defaults write com.apple.dock wvous-br-modifier -bool false
+defaults write com.apple.dock wvous-br-corner -int 5
+# top left - Mission Control (2)
+defaults write com.apple.dock wvous-tl-modifier -bool false
+defaults write com.apple.dock wvous-tl-corner -int 2
+
+### Dock & Menubar ###
+## Dock & Menu Bar
+# Dock - size large
+defaults write com.apple.dock tilesize -int 128
+# Doc position - left
+defaults write com.apple.dock orientation -string "left"
+# Autohide dock
+defaults write com.apple.dock autohide -bool true
+# Dock - disable show recent apps
+defaults write com.apple.dock show-recents -bool false
+
+## Wifi
+defaults write com.apple.controlcenter "NSStatusItem Visible WiFi" -bool true
+## Do Not Distrub
+#defaults write com.apple.controlcenter "NSStatusItem Visible DoNotDisturb" -bool true
+## Sound
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+## Fast UserSwitcher
+defaults write com.apple.controlcenter "NSStatusItem Visible UserSwitcher" -bool true
+## Battery
+# show % in menubar
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+# Enable in control center
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist Battery -int 1
+# Set menubar clock settings to show secs and update
+defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm:ss a"
+defaults write com.apple.menuextra.clock ShowSeconds -bool true
+
+### FINDER ###
+## General
+# Show on Desktip (Hard Disk, External, and CDs/DVDs/Ipods)
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+# New Finder windows who in ~galak
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/galak/"
+# Enable snap-to-grid for icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+
+
+## 
