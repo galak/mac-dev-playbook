@@ -153,6 +153,7 @@ homebrew_cask_apps:
   - microsoft-remote-desktop
   - mqtt-explorer
   - netspot
+  - packet-peeper
   - plex
   - plexamp
   - quicken
