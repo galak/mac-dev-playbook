@@ -144,6 +144,7 @@ homebrew_cask_apps:
   - gcc-arm-embedded
   - google-chrome
   - google-earth-pro
+  - grandperspective
   - kindle
   - microsoft-excel
   - microsoft-powerpoint
@@ -158,6 +159,7 @@ homebrew_cask_apps:
   - raspberry-pi-imager
   - slack
   - secure-pipes
+  - send-to-kindle
   - sweet-home3d
   - transfer
   - transmission
