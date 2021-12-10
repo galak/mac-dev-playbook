@@ -170,10 +170,27 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
+  - { id: 1408727408, name: "com.adriangranados.wifiexplorerlite" }
+  - { id: 1494760882, name: "Bluefruit Connect" }
+  - { id: 557428110,  name: "LightBlue" }
+  - { id: 1336679524, name: "BlueSee" }
+  - { id: 1348795218, name: "TeraTime" }
   - { id: 1153157709, name: "Speedtest" }
+  - { id: 1509085044, name: "Bluetooth Inspector" }
+  - { id: 418357707,  name: "CocoaPacketAnalyzer" }
 
 mas_email: "kumar.gala@gmail.com"
 mas_password: ""
+
+# iOS apps installed - MAS doesn't support yet
+#    itemId = 1472272574	Big Ass Fans.app
+#    itemId = 787415770		Enlighten.app
+#    itemId = 902021647		Haiku by BAF.app
+#    itemId = 1456074307	Linkind.app
+#    itemId = 1501617838	Span.app
+#    itemId = 998509713		kumo cloud.app
+#    itemId = 440464115		myAudi.app
+#    itemId = 920820854		myLink.app
 
 osx_script: "~/.osx --no-restart"
 
