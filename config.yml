@@ -151,8 +151,10 @@ homebrew_cask_apps:
   - microsoft-word
   - microsoft-teams
   - microsoft-remote-desktop
+  - monitorcontrol
   - mqtt-explorer
   - netspot
+  - onyx
   - packet-peeper
   - plex
   - plexamp
