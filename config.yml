@@ -143,8 +143,10 @@ homebrew_cask_apps:
   - firefox
   - gcc-arm-embedded
   - google-chrome
+  - google-drive
   - google-earth-pro
   - grandperspective
+  - irccloud
   - kindle
   - microsoft-excel
   - microsoft-powerpoint
@@ -161,6 +163,7 @@ homebrew_cask_apps:
   - quicken
   - raspberry-pi-imager
   - slack
+  - serial
   - secure-pipes
   - send-to-kindle
   - sweet-home3d
