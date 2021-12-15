@@ -109,3 +109,6 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 chsh -s /bin/bash
 
 chezmoi init --apply --verbose https://github.com/galak/mac-dotfiles.git
+
+# Setup some login items
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/path/to/itemname", hidden:false}' 
