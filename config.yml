@@ -111,6 +111,7 @@ homebrew_installed_packages:
   - sphinx-doc
   - bpytop
   - osx-cpu-temp
+  - chezmoi
 # Used by sdk-ng builds
   - autoconf
   - automake
