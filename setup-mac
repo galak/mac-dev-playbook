@@ -105,4 +105,7 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 
 ###
 
+# change shell to bash
+chsh -s /bin/bash
+
 chezmoi init --apply --verbose https://github.com/galak/mac-dotfiles.git
