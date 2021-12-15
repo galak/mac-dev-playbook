@@ -103,3 +103,6 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain InitialKeyRepeat -int 20
 defaults write NSGlobalDomain KeyRepeat -int 1
 
+###
+
+chezmoi init --apply --verbose https://github.com/galak/mac-dotfiles.git
