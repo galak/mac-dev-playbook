@@ -76,11 +76,21 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 # New Finder windows who in ~galak
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/galak/"
-# Enable snap-to-grid for icons on the desktop and in other icon views
-/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
-# Show the ~/Library folder
-chflags nohidden ~/Library
+  # Enable snap-to-grid for icons on the desktop and in other icon views
+  PREFERENCES="$HOME/Library/Preferences/com.apple.finder.plist"
+  /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" "$PREFERENCES"
+  /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" "$PREFERENCES"
+  /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" "$PREFERENCES"
+  unset PREFERENCES
+
+  # Use list view in all Finder windows by default
+  # Four-letter codes for the other view modes: `Icnv`, `Clmv`, `Glyv`
+  defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+  # Show the ~/Library folder
+  xattr -d com.apple.FinderInfo ~/Library 2>/dev/null
+  chflags nohidden ~/Library
 
 # Misc
 # Automatically quit printer app once the print jobs complete
