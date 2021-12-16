@@ -144,6 +144,7 @@ homebrew_cask_apps:
   - firefox
   - gcc-arm-embedded
   - google-chrome
+  - chrome-remote-desktop-host
   - google-drive
   - google-earth-pro
   - grandperspective
