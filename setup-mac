@@ -77,6 +77,9 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 defaults write com.apple.finder NewWindowTargetPath -string "file:///Users/galak/"
 
+# don't show tags in sidebar
+defaults write com.apple.Finder ShowRecentTags -bool false
+
   # Enable snap-to-grid for icons on the desktop and in other icon views
   PREFERENCES="$HOME/Library/Preferences/com.apple.finder.plist"
   /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" "$PREFERENCES"
