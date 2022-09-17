@@ -103,7 +103,6 @@ homebrew_installed_packages:
   - platformio
   - mitmproxy
   - nmap
-  - telnet
   - tmux
   - iperf3
   - speedtest-cli
@@ -121,6 +120,9 @@ homebrew_installed_packages:
   - dockutil
   - coccinelle
   - cjson
+  - inetutils
+  - sdl2
+  - ffmpeg
 # Used by sdk-ng builds
   - autoconf
   - automake
@@ -133,6 +135,9 @@ homebrew_installed_packages:
   - ncurses
   - pkg-config
   - makeself
+
+homebrew_uninstalled_packages:
+  - telnet
 
 homebrew_taps:
   - homebrew/core
