@@ -112,6 +112,15 @@ homebrew_installed_packages:
   - bpytop
   - osx-cpu-temp
   - chezmoi
+  - wakeonlan
+  - youtube-dl
+  - srecord
+  - pylint
+  - node
+  - hub
+  - dockutil
+  - coccinelle
+  - cjson
 # Used by sdk-ng builds
   - autoconf
   - automake
@@ -176,6 +185,8 @@ homebrew_cask_apps:
   - xbar
   - xquartz
   - zoom
+  - ha-menu
+  - utm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
