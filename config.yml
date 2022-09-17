@@ -180,6 +180,7 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 1509085044, name: "Bluetooth Inspector" }
+  - { id: 497799835,  name: "Xcode" }
   - { id: 1494760882, name: "Bluefruit Connect" }
   - { id: 1381004916, name: "Discovery" }
   - { id: 1408727408, name: "com.adriangranados.wifiexplorerlite" }
