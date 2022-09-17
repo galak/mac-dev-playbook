@@ -123,6 +123,7 @@ homebrew_installed_packages:
   - inetutils
   - sdl2
   - ffmpeg
+  - python-tabulate
 # Used by sdk-ng builds
   - autoconf
   - automake
