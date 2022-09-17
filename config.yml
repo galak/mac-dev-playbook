@@ -179,14 +179,14 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 1408727408, name: "com.adriangranados.wifiexplorerlite" }
+  - { id: 1509085044, name: "Bluetooth Inspector" }
   - { id: 1494760882, name: "Bluefruit Connect" }
-  - { id: 557428110,  name: "LightBlue" }
+  - { id: 1408727408, name: "com.adriangranados.wifiexplorerlite" }
   - { id: 1336679524, name: "BlueSee" }
   - { id: 1348795218, name: "TeraTime" }
-  - { id: 1153157709, name: "Speedtest" }
-  - { id: 1509085044, name: "Bluetooth Inspector" }
   - { id: 418357707,  name: "CocoaPacketAnalyzer" }
+  - { id: 1153157709, name: "Speedtest" }
+  - { id: 557428110,  name: "LightBlue" }
 
 mas_email: "kumar.gala@gmail.com"
 mas_password: ""
