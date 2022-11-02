@@ -1,0 +1,35 @@
+### Menu View
+##
+# Set Mail.app in 'Use Column Layout'
+defaults write com.apple.mail ColumnLayoutMessageList -bool true
+defaults write com.apple.mail BottomPreview -bool true
+# Sort By (Oldest Message at Top)
+defaults write com.apple.mail InboxViewerAttributes -dict-add SortedDescending NO
+
+### Settings
+##
+## Font & Color
+##
+# Message list font (import from plist - Helvetica Light 12)
+# Sets MessageListFont
+defaults import com.apple.mail MessageListFont.plist
+# Use Fixed-width font for plain text messages
+defaults write com.apple.mail AutoSelectFont 1
+##
+## Viewing:
+##
+# List Preview - None
+defaults write com.apple.mail NumberOfSnippetLines 0
+# Display unread messages with bold font
+defaults write com.apple.mail ShouldShowUnreadMessagesInBold 1
+# Highlight messages with color when not grouped
+defaults write com.apple.mail ThreadBackgroundColor 6325459
+# Show most recent messages at the top
+defaults write com.apple.mail ConversationViewSortDescending 1
+
+###
+##
+# Setup Viewer Window Toolbar - sets "NSToolbar Configuration MainWindow"
+defaults import com.apple.mail NSToolbar.Configuration.MainWindow.plist
+# Setup columns in Viewer Window
+defaults import com.apple.mail ColumnConfiguration.plist
