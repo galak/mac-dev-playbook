@@ -11,9 +11,9 @@ defaults write -g AppleShowScrollBars -string "Always"
 defaults write -g NSTableViewDefaultSizeMode -int 1
 
 ### TRACKPAD ###
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad Clicking 1
 # set scroll orientation
-defaults write -g com.apple.swipescrolldirection -bool false
+defaults write "Apple Global Domain" com.apple.swipescrolldirection 0
 
 ### MISSION CONTROL ###
 # Group Windows by Application
