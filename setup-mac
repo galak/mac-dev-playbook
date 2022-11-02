@@ -1,4 +1,6 @@
 ### GENERAL ###
+# Apperance - Allow wallpaper tinting in Windows
+defaults write "Apple Global Domain" AppleReduceDesktopTinting 1
 # Accent Color - Blue
 defaults write -g AppleAccentColor -int 4
 # Highlight Color - Blue
