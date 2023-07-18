@@ -126,5 +126,5 @@ chsh -s /bin/bash
 chezmoi init --apply --verbose https://github.com/galak/mac-dotfiles.git
 
 # Setup some login items
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/xbar.app", hidden:false}'
-osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Users/galak/bin/remap-command-to-delete.app", hidden:false}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/xbar.app", hidden:false, name:"xbar"}'
+osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Users/galak/bin/remap-command-to-delete.app", hidden:false, name:"remap-command-to-delete"}'
