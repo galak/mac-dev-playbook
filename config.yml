@@ -186,6 +186,7 @@ homebrew_cask_apps:
   - sweet-home3d
   - transfer
   - transmission
+  - visual-studio-code
   - vlc
   - wireshark
   - xbar
