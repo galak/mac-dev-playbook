@@ -206,7 +206,7 @@ mas_installed_apps:
   - { id: 1381004916, name: "Discovery" }
   - { id: 1408727408, name: "com.adriangranados.wifiexplorerlite" }
   - { id: 1336679524, name: "BlueSee" }
-  - { id: 1348795218, name: "TeraTime" }
+#  - { id: 1348795218, name: "TeraTime" }
   - { id: 418357707,  name: "CocoaPacketAnalyzer" }
   - { id: 1153157709, name: "Speedtest" }
   - { id: 557428110,  name: "LightBlue" }
