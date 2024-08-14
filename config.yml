@@ -45,42 +45,45 @@ dockitems_persist:
   - name: "Slack"
     path: "/Applications/Slack.app"
     pos: 9
+  - name: "Microsoft Teams"
+    path: "/Applications/Microsoft Teams.app"
+    pos: 10
   - name: "Safari"
     path: "/System/Applications/Safari.app"
-    pos: 10
+    pos: 11
   - name: "Calculator"
     path: "/System/Applications/Calculator.app"
-    pos: 11
+    pos: 12
   - name: "BBEdit"
     path: "/Applications/BBEdit.app"
-    pos: 12
-  - name: "System Preferences"
-    path: "/System/Applications/System Preferences.app"
     pos: 13
+  - name: "System Settings"
+    path: "/System/Applications/System Settings.app"
+    pos: 14
   - name: "Dictionary"
     path: "/System/Applications/Dictionary.app"
-    pos: 14
+    pos: 15
   - name: "Contacts"
     path: "/System/Applications/Contacts.app"
-    pos: 15
+    pos: 16
   - name: "Reminders"
     path: "/System/Applications/Reminders.app"
-    pos: 16
+    pos: 17
   - name: "Photos"
     path: "/System/Applications/Photos.app"
-    pos: 17
+    pos: 18
   - name: "Activity Monitor"
     path: "/System/Applications/Utilities/Activity Monitor.app"
-    pos: 18
+    pos: 19
   - name: "Terminal"
     path: "/System/Applications/Utilities/Terminal.app"
-    pos: 19
+    pos: 20
   - name: "Messages"
     path: "/System/Applications/Messages.app"
-    pos: 20
+    pos: 21
   - name: "App Store"
     path: "/System/Applications/App Store.app"
-    pos: 21
+    pos: 22
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
